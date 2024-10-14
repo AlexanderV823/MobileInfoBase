@@ -36,4 +36,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
 </mdclass:Configuration>

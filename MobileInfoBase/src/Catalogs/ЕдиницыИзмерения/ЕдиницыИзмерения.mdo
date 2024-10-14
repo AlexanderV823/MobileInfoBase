@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7aac113c-f8ed-4600-8436-56455f29e243">
+  <producedTypes>
+    <objectType typeId="45a392ef-6eac-4480-b667-730197c73115" valueTypeId="69d29a8a-9cc2-49a0-bfe4-5e57af002319"/>
+    <refType typeId="ded969c0-9a6c-4df0-967c-9afdf5249f8e" valueTypeId="91b0f2e3-efd1-4457-a26c-3d9a878ab76a"/>
+    <selectionType typeId="bce391cd-3d92-4fe2-99f0-cbc12905ac28" valueTypeId="d054f476-4620-4ed2-887c-431411d10a4d"/>
+    <listType typeId="45554b7e-7739-48ea-b78f-ef03678a0b43" valueTypeId="37b18949-1960-403a-ae64-d6d12f295c85"/>
+    <managerType typeId="608968de-5fd7-41cc-a1cd-b8f6008aa671" valueTypeId="683b4ad4-57ff-4ca9-9380-a32e75a3ff50"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Единица измерения</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Единица измерения</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЕдиницыИзмерения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЕдиницыИзмерения.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ЕдиницыИзмерения.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="f15349e5-9bd6-476e-af47-9bb6e5d8b35e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dbb44fc7-699c-4309-8fb9-ba0ad0eb4e04">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bfdbd800-61a5-4010-9a34-9a52e557f069">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

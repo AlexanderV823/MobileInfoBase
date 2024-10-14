@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6bf61e4-a3d8-49f8-ae7e-c79906963596">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6bf61e4-a3d8-49f8-ae7e-c79906963596">
   <producedTypes>
     <objectType typeId="e61efa0a-cd15-4aca-8649-472665038a02" valueTypeId="5b299b5d-0c26-4998-bdbd-9e597390995b"/>
     <refType typeId="e0a3448f-16f4-4037-a30c-2ea8ee44f6ea" valueTypeId="151c239b-58b4-4d2b-98d2-dfb13da7734d"/>
@@ -49,6 +49,40 @@
   <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Номенклатура.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.Номенклатура.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="08af7c28-cf5f-44fa-bac9-02a7ccda9b60">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d6b056da-cbb9-48a5-8d03-2a578b8f3b8f">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="beff1795-28f9-4971-944a-3fcd463c535b">
     <name>ФормаЭлемента</name>
     <synonym>
