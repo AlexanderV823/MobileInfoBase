@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c53eda3-0930-468f-aa9e-55257ef5a604">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93b3b9a5-7d07-4f07-884b-2788f848a7af">
   <producedTypes>
-    <objectType typeId="43f4d830-4f5a-43d4-ba22-b3688eedb789" valueTypeId="2992964a-a4e0-481f-801c-9847fcb364bd"/>
-    <refType typeId="061c9268-7d9d-421b-9ed1-70ce0b3a10d8" valueTypeId="123e7021-d021-4da5-b59e-0ce337ca4519"/>
-    <selectionType typeId="4b6a4249-713c-4277-a4e8-0c19e5e9d82c" valueTypeId="48d5399a-fc68-4c36-a9b5-a75db8217735"/>
-    <listType typeId="5ee2c487-e14b-4860-a46d-0c099afbd212" valueTypeId="cb9d4fe2-b83b-485c-8ed0-8dc41bfd1428"/>
-    <managerType typeId="f4856c80-9447-483e-8f5c-09df770101cf" valueTypeId="c619fe8d-9d69-4cf7-bcbc-9b7c7ab60549"/>
+    <objectType typeId="99339b2d-df53-41f9-88e6-7cbdbd96f7cb" valueTypeId="5a464a41-ca5e-41f8-9116-b96dba3ea8c8"/>
+    <refType typeId="1c114176-7342-4173-bc6a-507318a5b630" valueTypeId="e2179162-f136-442b-b743-5a5ef46c46d8"/>
+    <selectionType typeId="48ac33f9-3324-4527-bfda-ca4ab361adc6" valueTypeId="b288d148-d194-4ebf-a344-322d58931de2"/>
+    <listType typeId="91761cca-8767-4d4d-9ca9-6acfd0f7d94c" valueTypeId="290794c6-0acf-4db2-aebf-78f5486f8627"/>
+    <managerType typeId="e453f734-749b-4796-87c9-b2a524eac04a" valueTypeId="bbad6825-fa35-4b43-a989-fca88e6031f0"/>
   </producedTypes>
-  <name>Д_Должности</name>
+  <name>Д_Контрагенты</name>
   <synonym>
     <key>ru</key>
-    <value>Должности</value>
+    <value>Контактные лица</value>
   </synonym>
   <comment>ДЗ 11-2-1</comment>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Д_Должности.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.Д_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Д_Контрагенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Д_Контрагенты.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -57,6 +57,10 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Owner</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -78,7 +82,7 @@
     <name>Description</name>
     <synonym>
       <key>ru</key>
-      <value>Должность</value>
+      <value>ФИО</value>
     </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -99,22 +103,23 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Должность</value>
+    <value>Контактное лицо</value>
   </objectPresentation>
   <extendedObjectPresentation>
     <key>ru</key>
-    <value>Должность</value>
+    <value>Контактное лицо</value>
   </extendedObjectPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Список должностей</value>
+    <value>Список контактных лиц</value>
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Список должностей</value>
+    <value>Список контактных лиц</value>
   </extendedListPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
   <codeLength>9</codeLength>
   <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
@@ -124,10 +129,79 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.Д_Должности.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.Д_Должности.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>Catalog.Д_Должности.Form.ФормаВыбора</defaultChoiceForm>
-  <forms uuid="dd756815-a11d-4cc4-9fda-1f9a99958d7c">
+  <defaultObjectForm>Catalog.Д_Контрагенты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Д_Контрагенты.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Д_Контрагенты.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="9d493627-1b20-4a15-a7a6-b667392e40db">
+    <name>КонтактныйТелефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактный телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3e4591d3-ca1e-4a16-8b8d-7a603cbc7a59">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Д_Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fd697716-8489-4030-adf4-c264d884a92a">
+    <name>ДействуетНаОсновании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует на основании</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e16789a1-cfb1-4b6f-aafe-91ec2fa604a1">
+    <name>Заметка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заметка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9d4ce052-a5a7-4e9e-ad08-90cd5d80567f">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
@@ -136,7 +210,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="dfa16f84-c2cd-4e1b-b28a-9402ba5a881e">
+  <forms uuid="c27c82e0-830c-4afd-8e22-b0767db8e3b9">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
@@ -145,7 +219,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="34f99ddc-270d-45d5-8601-e678cdc56f43">
+  <forms uuid="86110547-aabc-480d-998a-1121efc5e15e">
     <name>ФормаВыбора</name>
     <synonym>
       <key>ru</key>
