@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7aac113c-f8ed-4600-8436-56455f29e243">
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f70bfb7-6d2c-4ec8-b335-1e1f53934408">
   <producedTypes>
-    <objectType typeId="45a392ef-6eac-4480-b667-730197c73115" valueTypeId="69d29a8a-9cc2-49a0-bfe4-5e57af002319"/>
-    <refType typeId="ded969c0-9a6c-4df0-967c-9afdf5249f8e" valueTypeId="91b0f2e3-efd1-4457-a26c-3d9a878ab76a"/>
-    <selectionType typeId="bce391cd-3d92-4fe2-99f0-cbc12905ac28" valueTypeId="d054f476-4620-4ed2-887c-431411d10a4d"/>
-    <listType typeId="45554b7e-7739-48ea-b78f-ef03678a0b43" valueTypeId="37b18949-1960-403a-ae64-d6d12f295c85"/>
-    <managerType typeId="608968de-5fd7-41cc-a1cd-b8f6008aa671" valueTypeId="683b4ad4-57ff-4ca9-9380-a32e75a3ff50"/>
+    <objectType typeId="4bda72b3-ec28-43da-ae77-3b76d0855325" valueTypeId="752b39ca-a3e6-4d8d-899d-bc9efef6e53b"/>
+    <refType typeId="9aa053e0-389a-4243-8fb5-7001c3261b90" valueTypeId="16472418-87b8-48cd-8ad4-ace6e56301e2"/>
+    <selectionType typeId="820df1b4-30bf-4756-a217-af42075ee8c9" valueTypeId="92b32c96-1ced-491a-962a-24d01d18b5e5"/>
+    <listType typeId="fb6d2089-3ff8-4cb3-837a-45258c448a53" valueTypeId="b349bc3b-ffa8-4ae9-8399-2551f983f252"/>
+    <managerType typeId="7cee9679-7d11-4fab-928c-2d02b6d7dc1c" valueTypeId="68689989-bab5-4ceb-b637-132d771df47e"/>
   </producedTypes>
   <name>ЕдиницыИзмерения</name>
   <synonym>
@@ -23,22 +23,10 @@
     <key>ru</key>
     <value>Единица измерения</value>
   </objectPresentation>
-  <extendedObjectPresentation>
-    <key>ru</key>
-    <value>Единица измерения</value>
-  </extendedObjectPresentation>
-  <listPresentation>
-    <key>ru</key>
-    <value>Единицы измерения</value>
-  </listPresentation>
-  <extendedListPresentation>
-    <key>ru</key>
-    <value>Единицы измерения</value>
-  </extendedListPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -46,34 +34,4 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.ЕдиницыИзмерения.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.ЕдиницыИзмерения.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>Catalog.ЕдиницыИзмерения.Form.ФормаВыбора</defaultChoiceForm>
-  <forms uuid="f15349e5-9bd6-476e-af47-9bb6e5d8b35e">
-    <name>ФормаЭлемента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма элемента</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="dbb44fc7-699c-4309-8fb9-ba0ad0eb4e04">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="bfdbd800-61a5-4010-9a34-9a52e557f069">
-    <name>ФормаВыбора</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма выбора</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:Catalog>
