@@ -30,11 +30,11 @@
   </extendedObjectPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Список доставок</value>
+    <value>Доставки</value>
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Список доставок</value>
+    <value>Доставки</value>
   </extendedListPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
