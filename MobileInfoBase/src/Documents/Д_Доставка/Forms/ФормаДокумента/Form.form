@@ -2,16 +2,16 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
     <name>ГруппаКолонкиШапки</name>
-    <id>50</id>
+    <id>58</id>
     <items xsi:type="form:FormGroup">
-      <name>ГруппаШапкиЛево</name>
-      <id>52</id>
+      <name>ГруппаШапкаЛево</name>
+      <id>60</id>
       <items xsi:type="form:FormGroup">
         <name>ГруппаНомерДата</name>
-        <id>56</id>
+        <id>62</id>
         <items xsi:type="form:FormField">
           <name>Номер</name>
-          <id>1</id>
+          <id>81</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -22,7 +22,7 @@
           </dataPath>
           <extendedTooltip>
             <name>НомерРасширеннаяПодсказка</name>
-            <id>3</id>
+            <id>83</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -37,7 +37,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>НомерКонтекстноеМеню</name>
-            <id>2</id>
+            <id>82</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -46,7 +46,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
-          <editMode>EnterOnInput</editMode>
+          <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -61,7 +61,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>Дата</name>
-          <id>4</id>
+          <id>84</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -72,7 +72,7 @@
           </dataPath>
           <extendedTooltip>
             <name>ДатаРасширеннаяПодсказка</name>
-            <id>6</id>
+            <id>86</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -87,7 +87,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ДатаКонтекстноеМеню</name>
-            <id>5</id>
+            <id>85</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -96,7 +96,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
-          <editMode>EnterOnInput</editMode>
+          <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -114,9 +114,17 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа номер дата</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа номер дата</value>
+        </toolTip>
         <extendedTooltip>
           <name>ГруппаНомерДатаРасширеннаяПодсказка</name>
-          <id>57</id>
+          <id>63</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -131,19 +139,17 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>AlwaysHorizontal</group>
+          <group>HorizontalIfPossible</group>
           <behavior>Auto</behavior>
-          <representation>WeakSeparation</representation>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
-          <showTitle>true</showTitle>
           <throughAlign>Auto</throughAlign>
           <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
         <name>Организация</name>
-        <id>7</id>
+        <id>87</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -154,7 +160,7 @@
         </dataPath>
         <extendedTooltip>
           <name>ОрганизацияРасширеннаяПодсказка</name>
-          <id>9</id>
+          <id>89</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -169,7 +175,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ОрганизацияКонтекстноеМеню</name>
-          <id>8</id>
+          <id>88</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -178,7 +184,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -196,9 +202,17 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа шапка лево</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа шапка лево</value>
+      </toolTip>
       <extendedTooltip>
-        <name>ГруппаШапкиЛевоРасширеннаяПодсказка</name>
-        <id>53</id>
+        <name>ГруппаШапкаЛевоРасширеннаяПодсказка</name>
+        <id>61</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -215,70 +229,18 @@
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>Vertical</group>
         <behavior>Auto</behavior>
-        <representation>WeakSeparation</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
-        <showTitle>true</showTitle>
         <throughAlign>Auto</throughAlign>
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
-      <name>ГруппаШапкиПраво</name>
-      <id>54</id>
-      <items xsi:type="form:FormField">
-        <name>Договор</name>
-        <id>13</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Договор</segments>
-        </dataPath>
-        <extendedTooltip>
-          <name>ДоговорРасширеннаяПодсказка</name>
-          <id>15</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>ДоговорКонтекстноеМеню</name>
-          <id>14</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
-        </extInfo>
-      </items>
+      <name>ГруппаШапкаПраво</name>
+      <id>73</id>
       <items xsi:type="form:FormField">
         <name>Контрагент</name>
-        <id>10</id>
+        <id>90</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -289,7 +251,7 @@
         </dataPath>
         <extendedTooltip>
           <name>КонтрагентРасширеннаяПодсказка</name>
-          <id>12</id>
+          <id>92</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -304,7 +266,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>КонтрагентКонтекстноеМеню</name>
-          <id>11</id>
+          <id>91</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -313,7 +275,57 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>Договор</name>
+        <id>93</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Договор</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ДоговорРасширеннаяПодсказка</name>
+          <id>95</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДоговорКонтекстноеМеню</name>
+          <id>94</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -328,7 +340,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>АдресДоставки</name>
-        <id>16</id>
+        <id>96</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -339,7 +351,7 @@
         </dataPath>
         <extendedTooltip>
           <name>АдресДоставкиРасширеннаяПодсказка</name>
-          <id>18</id>
+          <id>98</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -354,7 +366,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>АдресДоставкиКонтекстноеМеню</name>
-          <id>17</id>
+          <id>97</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -363,7 +375,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -382,9 +394,17 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа шапка право</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа шапка право</value>
+      </toolTip>
       <extendedTooltip>
-        <name>ГруппаШапкиПравоРасширеннаяПодсказка</name>
-        <id>55</id>
+        <name>ГруппаШапкаПравоРасширеннаяПодсказка</name>
+        <id>74</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -401,10 +421,8 @@
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>Vertical</group>
         <behavior>Auto</behavior>
-        <representation>WeakSeparation</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
-        <showTitle>true</showTitle>
         <throughAlign>Auto</throughAlign>
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
@@ -414,9 +432,17 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа колонки шапки</value>
+    </title>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа колонки шапки</value>
+    </toolTip>
     <extendedTooltip>
       <name>ГруппаКолонкиШапкиРасширеннаяПодсказка</name>
-      <id>51</id>
+      <id>59</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -433,10 +459,8 @@
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>AlwaysHorizontal</group>
       <behavior>Auto</behavior>
-      <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>

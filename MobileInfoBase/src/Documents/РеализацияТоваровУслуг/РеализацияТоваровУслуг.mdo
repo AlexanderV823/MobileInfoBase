@@ -212,7 +212,7 @@
     <name>Д_КонтактноеЛицо</name>
     <synonym>
       <key>ru</key>
-      <value>КонтактноеЛицо</value>
+      <value>Контактное лицо</value>
     </synonym>
     <type>
       <types>CatalogRef.Д_КонтактныеЛица</types>
