@@ -7,15 +7,15 @@
     <listType typeId="91761cca-8767-4d4d-9ca9-6acfd0f7d94c" valueTypeId="290794c6-0acf-4db2-aebf-78f5486f8627"/>
     <managerType typeId="e453f734-749b-4796-87c9-b2a524eac04a" valueTypeId="bbad6825-fa35-4b43-a989-fca88e6031f0"/>
   </producedTypes>
-  <name>Д_Контрагенты</name>
+  <name>Д_КонтактныеЛица</name>
   <synonym>
     <key>ru</key>
     <value>Контактные лица</value>
   </synonym>
   <comment>ДЗ 11-2-1</comment>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Д_Контрагенты.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Д_Контрагенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Д_КонтактныеЛица.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Д_КонтактныеЛица.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -129,9 +129,9 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.Д_Контрагенты.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.Д_Контрагенты.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>Catalog.Д_Контрагенты.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultObjectForm>Catalog.Д_КонтактныеЛица.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Д_КонтактныеЛица.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Д_КонтактныеЛица.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="9d493627-1b20-4a15-a7a6-b667392e40db">
     <name>КонтактныйТелефон</name>
     <synonym>
