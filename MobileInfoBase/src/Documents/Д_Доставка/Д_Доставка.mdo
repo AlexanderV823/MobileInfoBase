@@ -254,4 +254,12 @@
       <value>Транспортная накладная</value>
     </synonym>
   </templates>
+  <templates uuid="c843ad14-2328-456b-b470-a71456795f7e">
+    <name>ПФ_DOC_ДоговорДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор доставки</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
 </mdclass:Document>
