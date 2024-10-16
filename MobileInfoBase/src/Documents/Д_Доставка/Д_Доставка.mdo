@@ -247,4 +247,11 @@
       <value>Анкета клиента</value>
     </synonym>
   </templates>
+  <templates uuid="aba62277-782b-4084-9d8b-b60e2db2580b">
+    <name>ПФ_MXL_ТранспортнаяНакладная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортная накладная</value>
+    </synonym>
+  </templates>
 </mdclass:Document>
