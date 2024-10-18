@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab10ac88-cf08-47ac-802a-15d889d9edbe">
+  <name>ОбменСМобильнымКлиентом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с мобильным клиентом</value>
+  </synonym>
+  <comment>ДЗ 15-2</comment>
+  <rootURL>mobile</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="8bfca5a4-5a60-4d09-8573-1090d6c10aad">
+    <name>ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/ping/</template>
+    <methods uuid="17ad3961-1195-4c70-a99a-be5ffe130fac">
+      <name>ПроверитьСоединение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проверить соединение</value>
+      </synonym>
+      <handler>pingПроверитьСоединение</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
