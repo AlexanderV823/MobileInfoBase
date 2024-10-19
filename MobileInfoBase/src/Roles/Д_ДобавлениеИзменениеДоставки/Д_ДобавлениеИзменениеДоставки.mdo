@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e58f07a-c6de-4d60-bd1c-e86c10105c58">
-  <name>ДобавлениеИзменениеДоставки</name>
+  <name>Д_ДобавлениеИзменениеДоставки</name>
   <synonym>
     <key>ru</key>
     <value>Добавление изменение доставки</value>
