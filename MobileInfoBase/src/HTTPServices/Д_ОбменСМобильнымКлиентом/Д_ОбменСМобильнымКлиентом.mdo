@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab10ac88-cf08-47ac-802a-15d889d9edbe">
-  <name>ОбменСМобильнымКлиентом</name>
+  <name>Д_ОбменСМобильнымКлиентом</name>
   <synonym>
     <key>ru</key>
     <value>Обмен с мобильным клиентом</value>

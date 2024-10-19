@@ -11,5 +11,10 @@
   <content>Document.ЗаказПокупателя</content>
   <content>Document.РеализацияТоваровУслуг</content>
   <content>Document.Д_Доставка</content>
+  <content>HTTPService.Д_ОбменСМобильнымКлиентом</content>
+  <content>Constant.Д_АдресЦентральнойБазы</content>
+  <content>Constant.Д_Логин</content>
+  <content>Constant.Д_Пароль</content>
+  <content>DataProcessor.Д_ОбменСЦентральнойБазой</content>
   <parentSubsystem>Subsystem.ПокупкиИПродажи</parentSubsystem>
 </mdclass:Subsystem>
