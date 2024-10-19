@@ -11,6 +11,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>АдресЦентральнойБазы</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>АдресЦентральнойБазыПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>АдресЦентральнойБазыРасширеннаяПодсказка</name>
       <id>14</id>
@@ -61,6 +65,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Логин</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ЛогинПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ЛогинРасширеннаяПодсказка</name>
       <id>17</id>
@@ -111,6 +119,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Пароль</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ПарольПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ПарольРасширеннаяПодсказка</name>
       <id>20</id>
