@@ -31,7 +31,7 @@
       <key>ru</key>
       <value>Delivery</value>
     </synonym>
-    <template>/delivery</template>
+    <template>/delivery/</template>
     <methods uuid="20e42704-f796-4074-9fd3-8e387bd7927f">
       <name>ПолучитьДоставки</name>
       <synonym>
