@@ -16,5 +16,6 @@
   <content>Constant.Д_Логин</content>
   <content>Constant.Д_Пароль</content>
   <content>DataProcessor.Д_ОбменСЦентральнойБазой</content>
+  <content>ExchangePlan.ОбновлениеСпискаДоставок</content>
   <parentSubsystem>Subsystem.ПокупкиИПродажи</parentSubsystem>
 </mdclass:Subsystem>

@@ -886,6 +886,7 @@
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
   <commonModules>CommonModule.Д_РаботаСФормами</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
+  <exchangePlans>ExchangePlan.ОбновлениеСпискаДоставок</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_3</xDTOPackages>
