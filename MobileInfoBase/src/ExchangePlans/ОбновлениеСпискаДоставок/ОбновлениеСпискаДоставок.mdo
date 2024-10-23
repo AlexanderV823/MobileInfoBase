@@ -31,7 +31,7 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <descriptionLength>50</descriptionLength>
   <content>
-    <mdObject>Document.Д_Доставка</mdObject>
+    <mdObject>Document.ЗаказПокупателя</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <defaultPresentation>AsDescription</defaultPresentation>
