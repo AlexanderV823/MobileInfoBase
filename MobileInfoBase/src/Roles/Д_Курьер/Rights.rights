@@ -541,17 +541,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.Д_ОбменСЦентральнойБазой</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Configuration.ТорговоеПредприятие</name>
 		<right>
 			<name>WebClient</name>
@@ -836,74 +825,6 @@
 	</object>
 	<object>
 		<name>Catalog.Контрагенты.TabularSection.ДополнительныеРеквизиты</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>ExchangePlan.ОбновлениеСпискаДоставок</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Insert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>ExchangePlan.ОбновлениеСпискаДоставок.StandardAttribute.ThisNode</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>ExchangePlan.ОбновлениеСпискаДоставок.StandardAttribute.ReceivedNo</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>ExchangePlan.ОбновлениеСпискаДоставок.StandardAttribute.SentNo</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>ExchangePlan.ОбновлениеСпискаДоставок.StandardAttribute.Ref</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>ExchangePlan.ОбновлениеСпискаДоставок.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>ExchangePlan.ОбновлениеСпискаДоставок.StandardAttribute.Description</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>ExchangePlan.ОбновлениеСпискаДоставок.StandardAttribute.Code</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
