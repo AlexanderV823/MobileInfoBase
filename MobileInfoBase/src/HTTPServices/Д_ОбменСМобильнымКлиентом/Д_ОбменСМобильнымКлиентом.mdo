@@ -41,4 +41,20 @@
       <handler>deliveryПолучитьДоставки</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="271f4337-cc35-486a-85fe-16a426531c66">
+    <name>ExchangeDelivery</name>
+    <synonym>
+      <key>ru</key>
+      <value>Exchange Delivery</value>
+    </synonym>
+    <template>/exchangedelivery</template>
+    <methods uuid="8de2f4ae-3941-47e5-9d94-ad635a07a861">
+      <name>ПолучитьСписокДоставок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить список доставок</value>
+      </synonym>
+      <handler>ExchangeDeliveryПолучитьСписокДоставок</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>

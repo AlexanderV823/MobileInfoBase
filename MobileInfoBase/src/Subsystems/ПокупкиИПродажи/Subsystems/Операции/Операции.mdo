@@ -16,5 +16,6 @@
   <content>Constant.Д_Логин</content>
   <content>Constant.Д_Пароль</content>
   <content>Enum.Д_СтатусыДоставок</content>
+  <content>ExchangePlan.Д_ОбменСМобильнымУстройством</content>
   <parentSubsystem>Subsystem.ПокупкиИПродажи</parentSubsystem>
 </mdclass:Subsystem>
