@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07c3f97b-e07c-47d0-a67a-9aff7951594a">
+  <producedTypes>
+    <selectionType typeId="22167410-bfa8-484f-a810-b06cf8a207b5" valueTypeId="d22b3895-d360-4f3c-8f94-49824bc2d4ee"/>
+    <listType typeId="61c24533-d83c-4178-b37b-4425a0b3035b" valueTypeId="2d2ee3a7-4dc7-47fc-b4cf-07df2463c14b"/>
+    <managerType typeId="39b01e3f-ba8d-4c42-9ab7-c2a7112a2354" valueTypeId="25ba7683-7985-4d64-aa77-473622566bf1"/>
+    <recordSetType typeId="1c608ce0-7c6b-4356-b891-23f76c111135" valueTypeId="b7c67b00-1a6a-4379-8945-67ae10177b35"/>
+    <recordKeyType typeId="1396089a-c1eb-4017-8f77-c2a3075312d5" valueTypeId="2b4db5df-17c0-45b4-94c7-140a86d1ca1e"/>
+    <recordType typeId="3d8c9e2f-74d7-4c85-aa0f-abb0998d8751" valueTypeId="f2789e6c-6517-44a5-a48a-883036635983"/>
+    <recordManagerType typeId="810a0ad5-37c0-4de8-9544-33ec23b86527" valueTypeId="83834207-0835-477f-87ec-a64ee0aad904"/>
+  </producedTypes>
+  <name>Д_ФотоДоставок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фото доставок</value>
+  </synonym>
+  <comment>mroc-diplom</comment>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Фотография доставки</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Фотографии доставки</value>
+  </listPresentation>
+  <resources uuid="879736de-9a6d-4579-bfd3-09051ce694c6">
+    <name>Фотография</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фотография</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="149f1087-8aba-4635-98fd-ae2a39a6ab7d">
+    <name>Доставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Д_Доставка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

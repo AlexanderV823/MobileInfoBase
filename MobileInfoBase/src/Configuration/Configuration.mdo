@@ -1387,6 +1387,7 @@
   <informationRegisters>InformationRegister.УдаляемыеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
+  <informationRegisters>InformationRegister.Д_ФотоДоставок</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПокупателей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПоставщикам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Затраты</accumulationRegisters>
