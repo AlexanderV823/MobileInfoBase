@@ -54,11 +54,18 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Номенклатура.StandardAttribute.PredefinedDataName</name>
+		<name>Catalog.Номенклатура</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
+	</object>
+	<object>
+		<name>Catalog.Номенклатура.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -67,20 +74,12 @@
 	<object>
 		<name>Catalog.Номенклатура.StandardAttribute.Predefined</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Номенклатура.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -89,20 +88,12 @@
 	<object>
 		<name>Catalog.Номенклатура.StandardAttribute.DeletionMark</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Номенклатура.StandardAttribute.IsFolder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -111,20 +102,12 @@
 	<object>
 		<name>Catalog.Номенклатура.StandardAttribute.Owner</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Номенклатура.StandardAttribute.Parent</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -133,20 +116,12 @@
 	<object>
 		<name>Catalog.Номенклатура.StandardAttribute.Description</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Номенклатура.StandardAttribute.Code</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -333,39 +308,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Д_Доставка.Attribute.Ответственный</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Д_Доставка.Attribute.Контрагент</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Д_Доставка.TabularSection.Товары.Attribute.Количество</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ЗаказПокупателя.TabularSection.Услуги.Attribute.Цена</name>
 		<right>
 			<name>Edit</name>
@@ -374,17 +316,6 @@
 	</object>
 	<object>
 		<name>Document.ЗаказПокупателя.TabularSection.Услуги.Attribute.Сумма</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Д_Доставка.TabularSection.Товары.Attribute.Номенклатура</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -431,27 +362,19 @@
 	<object>
 		<name>Catalog.Номенклатура.Attribute.НоменклатурнаяГруппа</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>HTTPService.Д_ОбменСМобильнымКлиентом.URLTemplate.ExchangeDelivery.Method.ПолучитьСписокДоставок</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Контрагенты.Attribute.ИНН</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Д_Доставка.Attribute.Организация</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -479,58 +402,26 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Д_Доставка.StandardAttribute.Posted</name>
+		<name>Document.Д_Доставка</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Д_Доставка.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Д_Доставка.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Д_Доставка.StandardAttribute.Date</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Д_Доставка.StandardAttribute.Number</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -578,10 +469,6 @@
 	<object>
 		<name>Catalog.Номенклатура.Attribute.ВидНоменклатуры</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -605,25 +492,26 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Д_Доставка.Attribute.Комментарий</name>
+		<name>ExchangePlan.Д_ОбменСМобильнымУстройством</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Д_Доставка.TabularSection.Товары</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -635,17 +523,6 @@
 	</object>
 	<object>
 		<name>Document.ЗаказПокупателя.TabularSection.Товары</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Д_Доставка.Attribute.Основание</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -758,33 +635,14 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Д_Доставка.Attribute.АдресДоставки</name>
+		<name>Subsystem.ПокупкиИПродажи.Subsystem.Справочники</name>
 		<right>
 			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Номенклатура.Attribute.ЕдиницаИзмерения</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Д_Доставка.Attribute.Договор</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

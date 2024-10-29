@@ -32,6 +32,14 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <descriptionLength>50</descriptionLength>
   <content>
+    <mdObject>Catalog.Номенклатура</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Контрагенты</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>Document.Д_Доставка</mdObject>
   </content>
   <defaultPresentation>AsDescription</defaultPresentation>
