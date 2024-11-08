@@ -10,6 +10,7 @@
   </synonym>
   <type>
     <types>CatalogObject.ДоговорыКонтрагентовПрисоединенныеФайлы</types>
+    <types>CatalogObject.Д_ДоставкаПрисоединенныеФайлы</types>
     <types>CatalogObject.ВерсииФайлов</types>
     <types>CatalogObject.ПоступлениеТоваровУслугПрисоединенныеФайлы</types>
     <types>CatalogObject.ОрганизацииПрисоединенныеФайлы</types>
@@ -17,6 +18,5 @@
     <types>CatalogObject.КонтрагентыПрисоединенныеФайлы</types>
     <types>CatalogObject.Файлы</types>
     <types>CatalogObject.РеализацияТоваровУслугПрисоединенныеФайлы</types>
-    <types>CatalogObject.Д_ДоставкаПрисоединенныеФайлы</types>
   </type>
 </mdclass:DefinedType>

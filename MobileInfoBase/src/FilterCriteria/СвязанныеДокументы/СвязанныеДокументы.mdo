@@ -11,9 +11,9 @@
   </synonym>
   <type>
     <types>DocumentRef.ЗаказПокупателя</types>
+    <types>DocumentRef.Д_Доставка</types>
     <types>DocumentRef.РеализацияТоваровУслуг</types>
     <types>DocumentRef.ОплатаОтПокупателя</types>
-    <types>DocumentRef.Д_Доставка</types>
   </type>
   <content>Document.РеализацияТоваровУслуг.Attribute.Основание</content>
   <content>Document.ОплатаОтПокупателя.Attribute.Основание</content>

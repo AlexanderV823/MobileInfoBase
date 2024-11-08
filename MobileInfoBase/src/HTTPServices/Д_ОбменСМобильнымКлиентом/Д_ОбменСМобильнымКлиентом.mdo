@@ -56,5 +56,14 @@
       </synonym>
       <handler>ExchangeDeliveryПолучитьСписокДоставок</handler>
     </methods>
+    <methods uuid="1b3ceefe-9f84-48f6-bdd0-2be00dd2ec9d">
+      <name>ДобавитьФотоДоставки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Добавить фото доставки</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ExchangeDeliveryДобавитьФотоДоставки</handler>
+    </methods>
   </urlTemplates>
 </mdclass:HTTPService>

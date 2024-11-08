@@ -11,12 +11,12 @@
   <type>
     <types>CatalogRef.ДоговорыКонтрагентовПрисоединенныеФайлы</types>
     <types>CatalogRef.РеализацияТоваровУслугПрисоединенныеФайлы</types>
+    <types>CatalogRef.Д_ДоставкаПрисоединенныеФайлы</types>
     <types>CatalogRef.ПоступлениеТоваровУслугПрисоединенныеФайлы</types>
     <types>CatalogRef.ЗаказПокупателяПрисоединенныеФайлы</types>
     <types>CatalogRef.Файлы</types>
     <types>CatalogRef.КонтрагентыПрисоединенныеФайлы</types>
     <types>CatalogRef.ОрганизацииПрисоединенныеФайлы</types>
     <types>CatalogRef.ВерсииФайлов</types>
-    <types>CatalogRef.Д_ДоставкаПрисоединенныеФайлы</types>
   </type>
 </mdclass:DefinedType>
