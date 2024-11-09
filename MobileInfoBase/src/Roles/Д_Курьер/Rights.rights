@@ -147,6 +147,13 @@
 		</right>
 	</object>
 	<object>
+		<name>HTTPService.Д_ОбменСМобильнымКлиентом.URLTemplate.ExchangeDelivery.Method.ДобавитьФотоДоставки</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>HTTPService.Д_ОбменСМобильнымКлиентом.URLTemplate.delivery.Method.ПолучитьДоставки</name>
 		<right>
 			<name>Use</name>
